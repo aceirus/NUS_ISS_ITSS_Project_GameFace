@@ -1,0 +1,13 @@
+# NUS_ISS_ITSS_Project_GameFace
+GRADUATE CERTIFICATE INTELLIGENT SENSING SYSTEMS PRACTICE MODULE: GameFace
+
+---
+
+## CREDITS / PROJECT CONTRIBUTION
+
+Team:<br>
+Lim Jun Ming<br>
+Kennedy Tadhg<br>
+Yeong Wee Ping
+
+---
