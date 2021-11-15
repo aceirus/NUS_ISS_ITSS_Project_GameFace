@@ -1,8 +1,9 @@
-========================================================================================
+===========================================================================================================
 PROJECT GAMEFACE 
-========================================================================================
+===========================================================================================================
+---------------------------------------------------------------------------
 >>> Information
--------------------------------------------------------------
+---------------------------------------------------------------------------
 Intelligent Sensing System - Practice Module
 
 Prepared By:
@@ -13,10 +14,62 @@ Yeong Wee Ping
 Description:
 This is a configuration file to store all adjustable parameters and variables
 The config are split into various sections for different group and nature of variables
-========================================================================================
--------------------------------------------------------------
+
+Usage:
+To change target web page, replace the URL
+To change the action control, change the string value to any keyboard button as you wish
+To change the action sensitivity or threshold, change the floating value threshold
+To change the holding time period for eye_closed, mouth_open and post-action breathing time,
+   change the floating value (seconds)
+
+Exit Application:
+Naviagte to OpenCV Imshow video and press "q"
+===========================================================================================================
+---------------------------------------------------------------------------
+>>> Target Webpage (Any Webpage)
+---------------------------------------------------------------------------
+webpage = https://www.freetetris.org/game.php
+
+---------------------------------------------------------------------------
+>>> Action Keyboard Control Settings
+---------------------------------------------------------------------------
+eyes_crtl = esc
+mouth_crtl = space
+pitch_up_crtl = up
+pitch_down_crtl = down
+yaw_left_crtl = z
+yaw_right_crtl = z
+roll_left_crtl = left
+roll_right_crtl = right
+
+---------------------------------------------------------------------------
+>>> Headpose & Action Recognition Threshold
+---------------------------------------------------------------------------
+### Eyes: Ratio threshold to trigger "Eye Closed"
+eye_thres = 0.25
+
+### Mouth: Ratio threshold to trigger "Mouth Closed"
+mouth_thres = 1.0
+
+### Roll: Absolute difference in angle(degree) for trigger
+roll_thres = 15
+
+### Yaw: Ratio threshold for trigger (Right to Left Ratio)
+yaw_thres = 1.3
+
+### Pitch: Ratio threshold for trigger (Upper to Lower Ratio)
+pitch_thres = 1.5
+
+---------------------------------------------------------------------------
+>>> Action Time Holding Threshold (seconds)
+---------------------------------------------------------------------------
+eye_close_hold = 2
+mouth_open_hold = 0.75
+command_exec_thres = 0.5
+
+---------------------------------------------------------------------------
 >>> Mediapipe Landmarks Index
--------------------------------------------------------------
+---------------------------------------------------------------------------
 ### Eyes: top-left-bottom-right 
 eye_left = 159,33,145,133
 eye_right = 386,362,374,263
@@ -42,29 +95,9 @@ forehead_lower = 54,284
 chin_upper = 172,397
 chin_lower = 150,379
 
-
--------------------------------------------------------------
->>> Headpose & Action Recognition Threshold
--------------------------------------------------------------
-### Eyes: Ratio threshold to trigger "Eye Closed"
-eye_thres = 0.25
-
-### Mouth: Ratio threshold to trigger "Mouth Closed"
-mouth_thres = 1.0
-
-### Roll: Absolute difference in angle(degree) for trigger
-roll_thres = 15
-
-### Yaw: Ratio threshold for trigger
-yaw_thres = 1.3
-
-### Pitch: Ratio threshold for trigger
-pitch_thres = 1.5
-
-
--------------------------------------------------------------
->>> Headpsoe & Action Recognition Labels
--------------------------------------------------------------
+---------------------------------------------------------------------------
+>>> Headpose & Action Recognition Labels
+---------------------------------------------------------------------------
 eye_lab = Eyes Open, Eyes Closed
 mouth_lab = Mouth Closed, Mouth Open
 roll_lab = Roll Left, Neutral, Roll Right
@@ -72,30 +105,7 @@ yaw_lab = Yaw Left, Neutral, Yaw Right
 pitch_lab = Pitch Down, Neutral, Pitch Up
 
 
--------------------------------------------------------------
->>> Control Button Settings
--------------------------------------------------------------
-eyes_crtl = esc
-mouth_crtl = space
-pitch_up_crtl = up
-pitch_down_crtl = down
-yaw_left_crtl = z
-yaw_right_crtl = z
-roll_left_crtl = left
-roll_right_crtl = right
 
-
--------------------------------------------------------------
->>> Control Action Time Holding Threshold
--------------------------------------------------------------
-eye_close_hold = 2
-mouth_open_hold = 0.75
-command_exec_thres = 0.5
-
--------------------------------------------------------------
->>> Target Webpage (Any Webpage)
--------------------------------------------------------------
-webpage = https://www.freetetris.org/game.php
 
 
 
