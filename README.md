@@ -17,7 +17,7 @@ Yeong Wee Ping
 
 ---
 
-## INTRODUCTION
+### INTRODUCTION
 
 Currently, people living with different physical disabilities need to buy expensive third party peripherals in order to supply inputs to their computer systems and enjoy playing video games. We aim to develop a vision system which will allow Human-Computer Interaction (HCI) in a fun and affordable way, using human gesture and pose recognition.
 
@@ -25,7 +25,7 @@ The input to our proposed system are video images which can be from a simple web
 
 ---
 
-## CONCLUSIONS
+### CONCLUSIONS
 Given the limited time frame for us to work on this project, our team has successfully developed a vision system that is able to detect the various head postures as well as face actions in real-time and provide differentiated control commands to play online games via the use of a simple webcam linked to a computer. During the course of the project, we experimented with different methodologies like detection-based models which can be  2-stage or 1-stage approach, as well as tracking-based models to infer the head angles and even face actions. We had also explored various ways to estimate the different head poses, like directly estimating the angle of tilt via the model, or using heuristic method of calculating euclidean distances from facial landmarks and evaluating the ratio to determine the outcome.
 
 Initially, we started working with the detection-based Head Pose model that directly estimates the face angle. After a series of training and tuning the model, we ultimately managed to obtain very good results but we noticed an obvious reduction in the frames per second since it is doing inference frame by frame. The team then went on to search for an alternative algorithm and managed to find MediaPipe, which is developed by Google, that offers a pipeline of cross platform Machine Learning solutions. It offers a suite of tools that include FaceMesh, which has face detection, landmark detection and tracking . We realised that this can actually perform much faster real-time head pose estimation than the previously mentioned Head Pose model due to speedier inference time. Therefore we selected FaceMesh by MediaPipe as the main engine behind our head pose and face action detection system so that we can deliver a smoother interface and this method of inferring the outcome is also much less complex.
@@ -34,7 +34,7 @@ In addition, in order for our system to be able to offer a better gaming experie
 
 ---
 
-## GAMEFACE SYSTEM DEMO: TETRIS
+### GAMEFACE SYSTEM DEMO: TETRIS
 <a href="https://www.youtube.com/watch?v=CACX7UZhgvE">
 <img src="Miscellaneous/Tetris_logo.jpg"
    style="float: left; margin-right: 0px;" />
@@ -42,18 +42,18 @@ In addition, in order for our system to be able to offer a better gaming experie
 
 ---
 
-## PROJECT REPORT / PAPER
+### PROJECT REPORT / PAPER
 
 `Refer to project report for more details on our work at Github Folder: Project Report`
 
 ---
-## MODEL TRAINING AND EXPERIMENTATIONS
+### MODEL TRAINING AND EXPERIMENTATIONS
 
 `Refer to files at Github Folder: Experimentation`
 
 ---
 
-## INSTALLATION
+### INSTALLATION
 
 `Download and run the codes at Github Folder: GameFace_App`
 
