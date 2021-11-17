@@ -44,6 +44,6 @@ Yeong Wee Ping
 
 ## INSTALLATION
 
-`Download and the codes at Github Folder: GameFace_App`
+`Download and run the codes at Github Folder: GameFace_App`
 
 ---
