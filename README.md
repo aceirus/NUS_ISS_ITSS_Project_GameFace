@@ -50,7 +50,15 @@ In addition, in order for our system to be able to offer a better gaming experie
 
 ---
 
-### PROJECT REPORT / PAPER
+### GAMEFACE PROJECT PRESENTATION: 
+<a href="https://www.youtube.com/watch?v=CACX7UZhgvE">
+<img src="Miscellaneous/Gameface.jpg"
+   style="float: left; margin-right: 0px;" />
+</a>
+
+---
+
+### GAMEFACE PROJECT REPORT / PAPER
 
 `Refer to project report for more details on our work at Github Folder: Project Report`
 
