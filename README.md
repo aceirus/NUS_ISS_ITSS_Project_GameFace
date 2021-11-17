@@ -8,6 +8,15 @@ The motivation of our project is to explore using different human physical attri
 
 ---
 
+## CREDITS / PROJECT CONTRIBUTION
+
+Team Members:<br>
+Lim Jun Ming<br>
+Kennedy Tadhg<br>
+Yeong Wee Ping
+
+---
+
 ## INTRODUCTION
 
 Currently, people living with different physical disabilities need to buy expensive third party peripherals in order to supply inputs to their computer systems and enjoy playing video games. We aim to develop a vision system which will allow Human-Computer Interaction (HCI) in a fun and affordable way, using human gesture and pose recognition.
@@ -23,14 +32,16 @@ Initially, we started working with the detection-based Head Pose model that dire
 
 In addition, in order for our system to be able to offer a better gaming experience, and even be versatile enough to play different games, the team has also designed it in such a way that users can adjust various settings according to their own preferences by editing a configuration file.
 
-## CREDITS / PROJECT CONTRIBUTION
+---
 
-Team Members:<br>
-Lim Jun Ming<br>
-Kennedy Tadhg<br>
-Yeong Wee Ping
+## GAMEFACE SYSTEM DEMO: TETRIS
+<a href="https://www.youtube.com/watch?v=CACX7UZhgvE">
+<img src="Miscellaneous/Tetris_logo.jpg"
+   style="float: left; margin-right: 0px;" />
+</a>
 
 ---
+
 ## PROJECT REPORT / PAPER
 
 `Refer to project report for more details on our work at Github Folder: Project Report`
