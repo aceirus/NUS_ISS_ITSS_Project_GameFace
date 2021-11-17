@@ -1,6 +1,6 @@
-Since GitHub limits to upload of file size not greater than 25MB, providing link for
+Since GitHub limits to upload of file size not greater than 25MB, providing links for
 
 1. Downloadable Video Presentation:
+https://drive.google.com/file/d/1_Moghxpd3lGrexswsPc80EMK4LI5YJh-/view?usp=sharing
 
-
-2. Downloadable PowerPoint Presentation:
+2. Downloadable PowerPoint Presentation: https://docs.google.com/presentation/d/1DrUz7pMc__Z8E11Bazg56G62i5SBqQXA/edit?usp=sharing&ouid=114053682858915615885&rtpof=true&sd=true
