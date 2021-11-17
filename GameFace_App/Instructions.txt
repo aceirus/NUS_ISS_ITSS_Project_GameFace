@@ -1,0 +1,50 @@
+===========================================================================================================
+PROJECT GAMEFACE 
+===========================================================================================================
+---------------------------------------------------------------------------
+>>> Information
+---------------------------------------------------------------------------
+Intelligent Sensing System - Practice Module
+
+Prepared By:
+Lim Jun Ming
+Tadhg Kennedy
+Yeong Wee Ping
+
+Description:
+This is a quick guide for how to use the system by default. You can read the instructions in the configuration
+file if you wish to customize the game launched or controls.
+
+Assumptions:
+-Your system has a webcam
+-You have already installed all the required libraries detailed in the requirements.txt
+
+Running the application:
+You can launch the application from the command line by navigating to the directory and running the command:
+python run.py
+
+The game will then launch in your browser and a window will appear with the live feed from your webcam
+
+Starting the game:
+To start the game close your eyes until you hear the beep sound (2 seconds)
+
+Move piece horizontally:
+To move the Tetris block horizontally tilt your head to the left or right
+
+Roatate the block:
+To rotate the block clockwise, pitch your head upwards
+
+Speed up descent (soft drop):
+To speed up the block going downwards, pitch your head downwards
+
+To instantly drop the block (hard drop):
+In a neutral position, hold your mouth wide open until the block drops. (1 second) You will see a counter 
+begin when you open your mouth.
+
+How to rotate block counter-clockwise:
+Turn your head to the left or right, both options are currently configured to the same action.
+
+To pause the game:
+To pause the game close your eyes until you hear the beep sound (2 seconds)
+
+===========================================================================================================
