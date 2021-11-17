@@ -42,7 +42,7 @@ In addition, in order for our system to be able to offer a better gaming experie
 
 ---
 
-### GAMEFACE SYSTEM DEMO: PACMAN
+### GAMEFACE SYSTEM DEMO: PAC-MAN
 <a href="https://www.youtube.com/watch?v=WYYBJ30Bomc">
 <img src="Miscellaneous/Pacman.png"
    style="float: left; margin-right: 0px;" />
