@@ -1,0 +1,12 @@
+numpy
+pandas
+opencv-python
+pyautogui
+pygetwindow
+mediapipe
+tensorflow
+cmake
+dlib
+scikit-learn
+face_recognition
+imutils
