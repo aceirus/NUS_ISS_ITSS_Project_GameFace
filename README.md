@@ -42,6 +42,14 @@ In addition, in order for our system to be able to offer a better gaming experie
 
 ---
 
+### GAMEFACE SYSTEM DEMO: PACMAN
+<a href="https://www.youtube.com/watch?v=CACX7UZhgvE">
+<img src="Miscellaneous/Pacman.png"
+   style="float: left; margin-right: 0px;" />
+</a>
+
+---
+
 ### PROJECT REPORT / PAPER
 
 `Refer to project report for more details on our work at Github Folder: Project Report`
