@@ -25,7 +25,7 @@ In addition, in order for our system to be able to offer a better gaming experie
 
 ## CREDITS / PROJECT CONTRIBUTION
 
-Team:<br>
+Team Members:<br>
 Lim Jun Ming<br>
 Kennedy Tadhg<br>
 Yeong Wee Ping
