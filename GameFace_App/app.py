@@ -351,7 +351,7 @@ def runapp():
         # Showing Image Result
         winname = "Test"
         cv2.namedWindow(winname)
-        cv2.moveWindow(winname, 1000, 300)
+        cv2.moveWindow(winname, 100, 300)
         cv2.imshow(winname, frame)
 
         # Switching to application window
