@@ -33,12 +33,12 @@ Yeong Wee Ping
 ---
 ## PROJECT REPORT / PAPER
 
-`Refer to project report at Github Folder: Project Report`
+`Refer to project report for more details on our work at Github Folder: Project Report`
 
 ---
 ## MODEL TRAINING AND EXPERIMENTATIONS
 
-`Refer to notebooks at Github Folder: Experimentation`
+`Refer to files at Github Folder: Experimentation`
 
 ---
 
